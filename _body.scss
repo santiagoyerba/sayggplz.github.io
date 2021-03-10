@@ -1,0 +1,282 @@
+@import "./variables";
+@include nolinkdeco;
+
+/*Titulo------------------------------------------------------------*/
+body, html{
+    box-sizing: border-box;
+    margin: 0px;
+    height: auto;
+}
+
+h1{
+    font-family: $fuente-sans;
+    font-size: 64px;
+    margin: 0;
+}
+
+.tachar{
+    text-decoration:line-through;
+}
+
+.colazul{
+    color: $color-azul;
+}
+
+#seccion1{
+    margin-left: 15%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+p{
+    font-family: $fuente-mono;
+    font-size: 16px;
+    color: $color-negro;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 0;
+}
+
+.p1{
+    width: 80vw;
+}
+
+.cajacono{
+    margin-top: 50px;
+    font-family: $fuente-mono;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: $color-cyan;
+    width: 226px;
+    height: 56px;
+}
+
+.cajacono:hover{
+    color: $color-blanco;
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+#seccion2{
+    position: relative;
+}
+
+/*EPISODIOS------------------------------------------------------------*/
+h2{ 
+    top: 200px;
+    margin-left:15%;
+    font-family: $fuente-sans;
+    font-size: 48px;
+    color: $color-blanco;
+    letter-spacing: 0;
+    width: 500px;
+}
+.articulo-epi{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+.con-ifr{
+    width: 100%;
+}
+.cajaiframe{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frame1{
+    width: 40%;
+    margin: 20px 20px;
+    border-width: 0px;
+}
+
+.fondoazul{
+    display: block;
+    width: 100%;
+    height: 1000px;
+    top: 150px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skewY(-6deg);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+}
+
+/*De donde venimos------------------------------------------------------------*/
+
+.sec-venimos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.con-venimos{
+    width: 500px;
+    position: relative;
+    top: -150px;
+}
+
+#telefono{
+    max-width: 100%;
+    height: auto;
+}
+
+h3{
+    font-family: $fuente-sans;
+    font-size: 48px;
+    color: #060A24;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+.parra2{
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+}
+
+/*Seccion INVITADOS------------------------------------------------------------*/
+
+h4{
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+    font-family:$fuente-sans;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+    width: 500px;  
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.img-gale{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+    height: auto;
+}
+
+.foto-gal{
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+}
+
+/*Seccion Temas*/
+
+h5{ 
+    font-family: $fuente-sans;
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+    font-weight: 300;
+    width: 80vw;
+    margin: 50px 0 100px 25px;
+}
+.con-temas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caj-ico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.des-ico{
+    font-family: $fuente-sans;
+    font-weight: 600;
+    width: 150px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.ico-temas{
+    width: 104px;
+    height: 104px;
+    display: flex;
+}
+
+.fondoazul2{
+    display: block;
+    width: 100%;
+    height: 500px;
+    top: 275px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+    transform: skewY(-6deg);
+}
+
+.con-nov{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    position: relative;
+    top:-100px;
+}
+
+.caj-ult{
+    font-family: $fuente-mono;
+    align-items: center;
+    font-weight: 500;
+    width: 345px;
+    height: 56px;
+    display: flex;
+    background-color: $color-cyan;
+    font-size: 18px;
+    color: #060A24;
+    text-align: center;
+    line-height: 24px;
+    margin:0 auto;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.caj-ult:hover{
+    color: $color-blanco;
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+#nov-tit{
+    font-family: $fuente-sans;
+    font-size: 48px;
+    color: $color-blanco;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+
+.con-fon{
+    height: 600px;
+    overflow-y: hidden;
+}
+
+.icono:hover{
+    transform: scale(1.3);
+}
