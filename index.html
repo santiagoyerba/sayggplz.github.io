@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Podcast channel</title>
+</head>
+
+<body>
+    <header>
+        <!--NAVBAR-->
+        <img id="logo" src="./images/logo.svg" height="36" width="36" alt="">
+        <nav>
+            <input type="checkbox" id="checkboxhambu">
+            <label for="checkboxhambu" class="menuhambu">
+                <i id="iconohambu" class="fas fa-bars"></i>
+                <i id="iconocruz" class="fas fa-times"></i></label>
+            <ul class="menunav">
+                <li class="listnav hovernav"><a href="#episodios">EPISODIOS</a></li>
+                <li class="listnav hovernav"><a href="#nosotros">NOSOTROS</a></li>
+                <li class="listnav hovernav"><a href="#entrevistas">ENTREVISTAS</a></li>
+                <li class="listnav hovernav"><a href="#topicos">TOPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--SECCION1 TITULOS-->
+    <section id="seccion1">
+        <h1>
+            Hello <span class="tachar">world</span>
+            pale blue dot<span class="colazul">.</span>
+        </h1>
+        <p class="p1">
+            Un podcast que explora el mundo de la programacion y<br> la tecnologia. Nuevos espisodios, todos los jueves
+            cada 15 dias.
+        </p>
+        <a href="#nosotros"><span class="cajacono">CONOCE MAS</span></a>
+    </section>
+    <!--SECCION2 EPISODIOS-->
+    <section id="seccion2">
+        <span class="fondoazul"></span>
+        <article class="articulo-epi" id="episodios">
+            <h2>Episodios</h2>
+            <div class="con-ifr"></div>
+            <div class="cajaiframe">
+                <iframe class="frame1" src="https://open.spotify.com/embed-podcast/episode/5ExCQmTZaVAXkXcTE31NUY"
+                    height="232" allow="encrypted-media"></iframe>
+                <iframe class="frame1" src="https://open.spotify.com/embed-podcast/episode/1Mj5ehBcBZ5WV852244w4d"
+                    height="232" allow="encrypted-media"></iframe>
+            </div>
+            <div class="cajaiframe">
+                <iframe class="frame1" src="https://open.spotify.com/embed-podcast/episode/0tcq1dPy1ZZNcweNU1gDrA"
+                    height="232" allow="encrypted-media"></iframe>
+                <iframe class="frame1" src="https://open.spotify.com/embed-podcast/episode/14ybSp853NWd6AL1eQeCyY"
+                    height="232" allow="encrypted-media"></iframe>
+                </div>
+        </article>
+    </section>
+    <article class="sec-venimos" id="nosotros">
+        <img id="telefono" src="/PODCAST/images/phone.png" alt="https://imgur.com/BiMM2xC">
+        <div class="con-venimos">
+            <h3>De donde venimos</h3>
+            <p class="parra2">Our posturings, our imagined self-importance, the delusion that we have some privileged
+                position in the Universe, are challenged by this point of pale light.<br>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness, there is no hint that help will come from elsewhere
+                to save us from ourselves.
+            </p>
+        </div>
+    </article>
+    <!--INVITADOS ESTELARES-->
+    <article class="sec-inv">
+        <h4>Invitadas/os estelares</h4>
+        <div class="img-gale">
+            <img class="foto-gal" src="/PODCAST/images/grace-hopper.png" alt="https://imgur.com/bBqHB5J">
+            <img class="foto-gal" src="/PODCAST/images/Katie-Bouman.png" alt="https://imgur.com/6GDvP5v">
+            <img class="foto-gal" src="/PODCAST/images/Margaret_Hamilton.png" alt="https://i.imgur.com/r2N7Z5P.png">
+            <img class="foto-gal" src="/PODCAST/images/ERA_UNIVAC.png" alt="https://imgur.com/CrFtNYG">
+            <img class="foto-gal" src="/PODCAST/images/COMPUTEROPERATORS.png" alt="https://imgur.com/3nXkkwa">
+            <img class="foto-gal" src="/PODCAST/images/susan-kare.png" alt="https://imgur.com/YKQJtAZ">
+        </div>
+    </article>
+    <section>
+        <!--ALGUNOS  DE NUESTROS TEMAS-->
+        <h5>Algunos de nuestros temas</h5>
+        <div class="con-temas">
+            <div class="caj-ico">
+                <img class="ico-temas" src="/PODCAST/images/icon1.svg" alt="">
+                <div class="des-ico">Trabajo remoto</div>
+            </div>
+            <div class="caj-ico">
+                <img class="ico-temas" src="/PODCAST/images/icon2.svg" alt="">
+                <div class="des-ico">Repansando la<br>programacion</div>
+            </div>
+            <div class="caj-ico">
+                <img class="ico-temas" src="/PODCAST/images/icon3.svg" alt="">
+                <div class="des-ico">Bases del codigo</div>
+            </div>
+            <div class="caj-ico">
+                <img class="ico-temas" src="/PODCAST/images/icon4.svg" alt="">
+                <div class="des-ico">Seguridad informatica</div>
+            </div>
+        </div>
+        <div class="con-fon">
+            <span class="fondoazul2"></span>
+            <div class="con-nov">
+                <div id="nov-tit">Queres las ultimas novedades?</div>
+                <a href="#episodios" class="caj-ult">ESCUCHA LOS EPISODIOS</a>
+            </div>
+        </div>
+    </section>
+    <!--FOOOTER-->
+    <footer class="footer">
+        <div class="txt-foo">ⓒ 2019- Hello blue pale dot</div>
+        <div class="con-ico">
+            <div class="icono"><a href="#"><i class="fab fa-spotify"></i></a></div>
+            <div class="icono"><a href="#"><i class="fab fa-instagram"></i></a></div>
+            <div class="icono"><a href="#"><i class="fab fa-twitter"></i></a></div>
+            <div class="icono"><a href="#"><i class="fab fa-facebook"></i></a></div>
+            <div class="icono"><a href="#"><i class="fab fa-telegram"></i></a></div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/88b305b221.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
